@@ -36,7 +36,12 @@
 			<a href={`tel:${phone}`} class="tw-transition hover:text-highlight">Phone</a>
 		</div>
 		<div class="self-start">
-			<a href={`${instagram}`} class="tw-transition hover:text-highlight">Instagram</a>
+			<a
+				href={`${instagram}`}
+				rel="noreferrer"
+				target="_blank"
+				class="tw-transition hover:text-highlight">Instagram</a
+			>
 		</div>
 	</div>
 </PageContainer>
