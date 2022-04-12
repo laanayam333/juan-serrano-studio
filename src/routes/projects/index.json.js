@@ -11,7 +11,7 @@ export const get = async () => {
 					slug
 					coverImage {
 						alt
-						url
+						url(transformation: { document: { output: { format: webp } } })
 					}
 				}
 			}

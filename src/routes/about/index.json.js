@@ -15,7 +15,7 @@ export const get = async () => {
 					name
 					profilePicture {
 						alt
-						url
+						url(transformation: { document: { output: { format: webp } } })
 					}
 				}
 			}

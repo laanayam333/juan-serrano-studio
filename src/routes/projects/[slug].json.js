@@ -14,11 +14,11 @@ export const get = async (req) => {
 					price
 					description
 					coverImage {
-						url
+						url(transformation: { document: { output: { format: webp } } })
 						alt
 					}
 					images {
-						url
+						url(transformation: { document: { output: { format: webp } } })
 						alt
 					}
 				}
