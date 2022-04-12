@@ -14,11 +14,21 @@ export const get = async (req) => {
 					price
 					description
 					coverImage {
-						url(transformation: { document: { output: { format: webp } } })
+						url(
+							transformation: {
+								image: { resize: { width: 50, height: 50, fit: clip } }
+								document: { output: { format: webp } }
+							}
+						)
 						alt
 					}
 					images {
-						url(transformation: { document: { output: { format: webp } } })
+						url(
+							transformation: {
+								image: { resize: { width: 50, height: 50, fit: clip } }
+								document: { output: { format: webp } }
+							}
+						)
 						alt
 					}
 				}
