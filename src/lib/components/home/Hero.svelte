@@ -3,7 +3,8 @@
 		<span class="lg:-ml-24">Juan</span>
 		<span class="font-medium italic text-highlight">Serrano</span>
 		<span class="lg:ml-24">Studio</span>
-		<span class="mt-4 font-sans text-lg font-light tracking-widest md:mt-6 md:self-end md:text-2xl"
+		<span
+			class="mt-4 font-sans text-lg font-light tracking-widest text-gray-500 md:mt-6 md:self-end md:text-2xl"
 			>Muebles Artesanos</span
 		>
 	</h1>
