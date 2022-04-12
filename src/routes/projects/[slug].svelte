@@ -59,12 +59,12 @@
 					<DetailsValue>{materials}</DetailsValue>
 				</DetailsContainer>
 				<DetailsContainer>
-					<DetailsLabel>Year</DetailsLabel>
+					<DetailsLabel>Año</DetailsLabel>
 					<DetailsValue>{year}</DetailsValue>
 				</DetailsContainer>
 				<DetailsContainer>
-					<DetailsLabel>Price</DetailsLabel>
-					<DetailsValue>From €{price}</DetailsValue>
+					<DetailsLabel>Precio</DetailsLabel>
+					<DetailsValue>Desde €{price}</DetailsValue>
 				</DetailsContainer>
 			</div>
 		</div>
