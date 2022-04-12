@@ -5,7 +5,7 @@
 
 <ul class="flex space-x-3 lg:space-x-12">
 	{#each navLinks as { label, to }}
-		<li class="font-subheading text-base uppercase lg:text-xl">
+		<li class="font-subheading text-sm uppercase lg:text-xl">
 			<a
 				href={to}
 				class="tw-transition hover:text-highlight"

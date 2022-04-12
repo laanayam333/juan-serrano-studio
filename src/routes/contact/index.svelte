@@ -33,7 +33,7 @@
 			<a href={`mailto:${email}`} class="tw-transition hover:text-highlight">Email</a>
 		</div>
 		<div class="self-end">
-			<a href={`tel:${phone}`} class="tw-transition hover:text-highlight">Phone</a>
+			<a href={`tel:${phone}`} class="tw-transition hover:text-highlight">Teléfono</a>
 		</div>
 		<div class="self-start">
 			<a
