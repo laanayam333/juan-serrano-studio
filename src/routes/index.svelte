@@ -39,7 +39,7 @@
 					class="tw-transition absolute inset-0 z-10 flex flex-col items-center justify-center text-black group-hover:scale-105 group-hover:text-highlight"
 					href={`/projects/${slug}`}
 				>
-					<h2 class="font-heading text-4xl font-bold lg:text-7xl">
+					<h2 class="font-heading text-5xl font-bold lg:text-7xl">
 						{title}
 					</h2>
 				</a>
