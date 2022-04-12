@@ -1,5 +1,5 @@
 <script>
-	import { scrollIntoView } from '$lib/helpers/scrollIntoView';
+	// // import { scrollIntoView } from '$lib/helpers/scrollIntoView';
 
 	export let images;
 	export const getItemId = (index) => `carousel-item-${index}`;
@@ -11,12 +11,12 @@
 	>
 		{#each images as { url, alt }, index}
 			<li id={getItemId(index)} class="flex shrink-0 snap-center">
-				<img src={url} {alt} class="w-80 object-contain" />
+				<img src={url} {alt} class="w-64 object-contain md:w-80" />
 			</li>
 		{/each}
 	</ul>
-	<nav class="mt-4 lg:mt-6">
-		<ul class="flex justify-center space-x-3">
+	<!-- <nav class="mt-4 lg:mt-6">
+		<ul class="flex justify-center space-x-3 md:space-x-6">
 			{#each images as { }, index}
 				<li>
 					<a
@@ -27,5 +27,5 @@
 				</li>
 			{/each}
 		</ul>
-	</nav>
+	</nav> -->
 </div>

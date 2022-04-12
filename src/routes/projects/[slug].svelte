@@ -70,7 +70,7 @@
 		</div>
 	</div>
 
-	<div class="mx-auto mt-16 max-w-7xl lg:mt-24">
+	<div class="mx-auto mt-16 max-w-4xl lg:mt-24">
 		<Carousel {images} />
 	</div>
 </PageContainer>
