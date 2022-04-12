@@ -22,6 +22,7 @@
 	import DetailsValue from '$lib/components/project/DetailsValue.svelte';
 	import ProjectTitle from '$lib/components/project/ProjectTitle.svelte';
 	import ProjectDescription from '$lib/components/project/ProjectDescription.svelte';
+	import Carousel from '$lib/components/project/Carousel.svelte';
 
 	export let project;
 
@@ -69,13 +70,7 @@
 		</div>
 	</div>
 
-	<div
-		class="mx-auto mt-16 max-w-7xl columns-1 gap-4 space-y-4 sm:columns-2 md:columns-3 lg:mt-24 lg:columns-4 lg:gap-6 lg:space-y-6"
-	>
-		{#each images as { url, alt }}
-			<div class="break-inside p-4">
-				<img src={url} {alt} />
-			</div>
-		{/each}
+	<div class="mx-auto mt-16 max-w-7xl lg:mt-24">
+		<Carousel {images} />
 	</div>
 </PageContainer>
