@@ -13,7 +13,6 @@
 </script>
 
 <script>
-	// // import Hero from '$lib/components/home/Hero.svelte';
 	import PageContainer from '$lib/components/shared/PageContainer.svelte';
 	import { PORTFOLIO_NAME } from '$lib/utils/constants';
 

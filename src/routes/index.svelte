@@ -27,7 +27,9 @@
 <PageContainer>
 	<Hero />
 
-	<div class="mx-auto mt-24 flex max-w-4xl flex-col items-center gap-y-24 uppercase">
+	<div
+		class="mx-auto mt-16 flex max-w-4xl flex-col items-center gap-y-16 uppercase md:mt-24 md:gap-y-24"
+	>
 		{#each projects as { title, coverImage, slug }}
 			<div
 				class="tw-transition group relative z-0 aspect-square w-64 text-center odd:ml-6 odd:rotate-3 even:mr-6 even:-rotate-3 hover:odd:rotate-0 hover:even:rotate-0 lg:w-96 lg:odd:ml-56 lg:even:mr-56"
